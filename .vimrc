@@ -9,7 +9,6 @@ call vundle#end()
 
 syntax on
 set nu
-set relativenumber
 set cursorline
 set expandtab
 set shiftwidth=4
