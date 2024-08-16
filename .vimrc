@@ -14,3 +14,5 @@ set expandtab
 set shiftwidth=4
 set autoindent
 set cindent
+
+set backspace=indent,eol,start
