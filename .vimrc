@@ -8,6 +8,7 @@ call vundle#begin()
     Plugin 'iCyMind/NeoSolarized'
     Plugin 'vim-airline/vim-airline'
     Plugin 'vim-airline/vim-airline-themes'
+    Plugin 'ziglang/zig.vim'
 call vundle#end()
     filetype plugin indent on
 
