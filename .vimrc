@@ -8,8 +8,10 @@ call vundle#begin()
     Plugin 'iCyMind/NeoSolarized'
     Plugin 'vim-airline/vim-airline'
     Plugin 'vim-airline/vim-airline-themes'
+    Plugin 'jackguo380/vim-lsp-cxx-highlight'
+    Plugin 'prabirshrestha/vim-lsp'
 call vundle#end()
-    filetype plugin indent on
+filetype plugin indent on
 
 syntax on
 set nu
@@ -20,3 +22,4 @@ set autoindent
 set cindent
 
 set backspace=indent,eol,start
+
