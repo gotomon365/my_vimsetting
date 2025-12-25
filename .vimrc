@@ -10,6 +10,7 @@ call vundle#begin()
     Plugin 'vim-airline/vim-airline-themes'
     Plugin 'jackguo380/vim-lsp-cxx-highlight'
     Plugin 'prabirshrestha/vim-lsp'
+    Plugin 'catppuccin/vim', { 'as': 'catppuccin' }
 call vundle#end()
 filetype plugin indent on
 
@@ -20,6 +21,7 @@ set expandtab
 set shiftwidth=4
 set autoindent
 set cindent
-
+set termguicolors
+colorscheme catppuccin_mocha 
 set backspace=indent,eol,start
 
