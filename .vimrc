@@ -8,20 +8,31 @@ call vundle#begin()
     Plugin 'iCyMind/NeoSolarized'
     Plugin 'vim-airline/vim-airline'
     Plugin 'vim-airline/vim-airline-themes'
-    Plugin 'jackguo380/vim-lsp-cxx-highlight'
-    Plugin 'prabirshrestha/vim-lsp'
     Plugin 'catppuccin/vim', { 'as': 'catppuccin' }
-call vundle#end()
+    Plugin 'TysonAndre/php-vim-syntax'
+    Plugin 'mattn/emmet-vim'
+    Plugin 'vim-python/python-syntax'
+
+    "" vim-lsp 
+    Plugin 'prabirshrestha/vim-lsp'
+    Plugin 'mattn/vim-lsp-settings'
+    Plugin 'prabirshrestha/asyncomplete.vim'
+    Plugin 'prabirshrestha/asyncomplete-lsp.vim'
+    Plugin 'prabirshrestha/async.vim'
+
+
+    call vundle#end()
 filetype plugin indent on
 
 syntax on
 set nu
+set rnu
 set cursorline
 set expandtab
 set shiftwidth=4
 set autoindent
 set cindent
 set termguicolors
-colorscheme catppuccin_mocha 
+colorscheme catppuccin_macchiato
 set backspace=indent,eol,start
 
